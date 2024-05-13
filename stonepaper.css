@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    height: 160px;
+    width: 200px;
+    border-radius: 50%;
+   /* margin-right: 40px;*/
+    border-color: black;
+    border-width: 0.12cm;
+    border-style: solid;
+    object-fit: cover;/* to make the image more clear because it fit the image the box it contain
+    cursor:alias /* Change cursor to pointer on hover */
+    /*transition:transform 0.2s ease; /* Smooth transition for enlargement */
+    
+}  
+.choice:hover{
+    border-color: rgb(0, 0, 0);
+    border-style:solid;
+    height: 160px;
+    width: 200px;
+    border-radius: 50%;
+    border-width: 0.15cm;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img:hover{
+   
+   /* transform: scale(1.02); /* Increase scale to 120% */
+   cursor: pointer;
+   border-width:0.15cm;
+   
+   }
+img:active{
+       background-color: bisque;
+       height: 100px;
+       width: 220px;
+      
+}
+#choices{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        height: 15rem;
+        gap: 5rem;
+        
+}
+#scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    font-size: larger;
+    gap: 5rem;
+
+}
+/*
+div{
+    display:flex;
+    justify-content: center;/* for the horizontal axis
+    align-items: center;/* for the vertical axis
+    height: 270px;/* giving the height to the needed one from the top
+    transform: scale(1.2); /* Increase scale to 120% 
+} 
+*/
+button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 9px;
+    font-size: larger;
+}
+header{
+    background-color:black;
+    height:90px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    line-height:5rem;/* rem gives hiegth to the thing, acorinding to that root div */
+}
+
+    p{
+        margin:10px 10px 10px 10px;
+        
+    }
+
+#button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    
+    
+
+}
+button:hover{
+    cursor: pointer;
+   transform: scale(1.05);
+}
+button:active{
+    background-color: white;
+    color: black;
+}
+#userscore,#computerscore{
+    margin-left: 40px;
+    font-size: 50px;
+}
